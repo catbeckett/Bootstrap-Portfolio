@@ -1,0 +1,161 @@
+body {
+    margin: 0;
+}
+
+a:hover {
+    box-shadow: 0px 0px 10px 1px rgb(4, 1, 17);
+    transition: all 0.5s ease-in-out;
+}
+
+
+/* Navigation Bar ---------------------------------------------------------- */
+
+#logo {
+    width: 10vh
+}
+
+.custom-navbar {
+    padding: 0px !important;
+}
+
+.customNav {
+    background-color: rgb(230, 135, 10);
+}
+
+
+.customnav-link {
+    color: white !important;
+}
+
+/* Hero Section ---------------------------------------------------------- */
+
+.customJumbo {
+    /* height: calc(100vh-20px); doesn't appear to apply to flexible jumbrotron element - strikethrough when viewed on Brave Browser developer tool*/
+    padding: 5vh 0;
+    background-color: rgb(240, 240, 101);
+}
+
+.customJumbo h2 {
+    font-size: 350%;
+    color: black
+}
+
+.customJumbo h3 {
+    color: black;
+}
+
+.jumboText {
+    text-align: center;
+}
+
+#profile-pic {
+    border-radius: 50%;
+    padding: 2rem;
+}
+
+
+/* Project Section ---------------------------------------------------------- */
+
+.project-section {
+    padding: 1.5vh 0;
+}
+
+.project-section h2 {
+    color: black;
+    padding-bottom: 1rem;
+}
+
+.customCard {
+    --bs-card-border-width: 0 !important;
+    text-align: center;
+}
+
+.customCard-image {
+    max-width: 75%;
+    margin: 0 auto;
+}
+
+/* About Me Section ---------------------------------------------------------- */
+
+.aboutme-section {
+    padding: 1.5vh 0;
+    background-color: black
+}
+
+.aboutme-section h2 {
+    color: white;
+    margin-bottom: 0;
+}
+
+.aboutme-section h5 {
+    color: white;
+    opacity: 50%;
+}
+
+.aboutme-section p {
+    color: whitesmoke
+}
+
+.aboutme-skills-contain,
+.aboutme-text-contain {
+    padding: 1.5rem;
+    text-align: center;
+}
+
+.customProg {
+    margin-bottom: 0.75rem;
+}
+
+
+/* Contact Section ---------------------------------------------------------- */
+
+.contact-section {
+    padding: 1.5vh 0;
+}
+
+.contact-section .collapse {
+    color: gold;
+}
+
+.custom-collapsecard {
+    justify-content: center;
+}
+
+.buttonRow {
+    width: 100% !important;
+}
+
+.buttonRow button {
+    padding: 0.5rem;
+    margin: 0.5rem;
+}
+
+#contactbutton-wrap {
+    margin-top: 1rem;
+}
+
+#contactbutton {
+    font-size: 1.5rem;
+    color: white;
+    --bs-btn-color: #fff;
+    --bs-btn-bg: black;
+    --bs-btn-border-color: purple;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: purple;
+    --bs-btn-hover-border-color: gold;
+    --bs-btn-focus-shadow-rgb: 49,132,253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: purple;
+    --bs-btn-active-border-color: black;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: red;
+    --bs-btn-disabled-border-color: black;
+}
+
+
+/* Footer Section ---------------------------------------------------------- */
+
+footer {
+    text-align: center;
+}

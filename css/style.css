@@ -7,11 +7,10 @@ a:hover {
     transition: all 0.5s ease-in-out;
 }
 
-
 /* Navigation Bar ---------------------------------------------------------- */
 
 #logo {
-    width: 10vh
+    width: 10vh;
 }
 
 .custom-navbar {
@@ -22,7 +21,6 @@ a:hover {
     background-color: rgb(230, 135, 10);
 }
 
-
 .customnav-link {
     color: white !important;
 }
@@ -30,14 +28,13 @@ a:hover {
 /* Hero Section ---------------------------------------------------------- */
 
 .customJumbo {
-    /* height: calc(100vh-20px); doesn't appear to apply to flexible jumbrotron element - strikethrough when viewed on Brave Browser developer tool*/
     padding: 5vh 0;
-    background-color: rgb(240, 240, 101);
+    background-color: rgb(243, 214, 107);
 }
 
 .customJumbo h2 {
     font-size: 350%;
-    color: black
+    color: black;
 }
 
 .customJumbo h3 {
@@ -52,8 +49,6 @@ a:hover {
     border-radius: 50%;
     padding: 2rem;
 }
-
-
 /* Project Section ---------------------------------------------------------- */
 
 .project-section {
@@ -79,7 +74,7 @@ a:hover {
 
 .aboutme-section {
     padding: 1.5vh 0;
-    background-color: black
+    background-color: black;
 }
 
 .aboutme-section h2 {
@@ -93,7 +88,7 @@ a:hover {
 }
 
 .aboutme-section p {
-    color: whitesmoke
+    color: whitesmoke;
 }
 
 .aboutme-skills-contain,
@@ -116,46 +111,55 @@ a:hover {
 .contact-section .collapse {
     color: gold;
 }
-
 .custom-collapsecard {
+    display: flex;
     justify-content: center;
-}
-
-.buttonRow {
+  }
+  
+  .buttonRow {
     width: 100% !important;
-}
-
-.buttonRow button {
+  }
+  
+  .buttonRow button {
     padding: 0.5rem;
     margin: 0.5rem;
-}
-
-#contactbutton-wrap {
+  }
+  
+  #contactbutton-wrap {
     margin-top: 1rem;
-}
-
-#contactbutton {
+  }
+  
+  #contactbutton {
     font-size: 1.5rem;
     color: white;
-    --bs-btn-color: #fff;
-    --bs-btn-bg: black;
-    --bs-btn-border-color: purple;
-    --bs-btn-hover-color: #fff;
-    --bs-btn-hover-bg: purple;
-    --bs-btn-hover-border-color: gold;
-    --bs-btn-focus-shadow-rgb: 49,132,253;
-    --bs-btn-active-color: #fff;
-    --bs-btn-active-bg: purple;
-    --bs-btn-active-border-color: black;
-    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
-    --bs-btn-disabled-color: #fff;
-    --bs-btn-disabled-bg: red;
-    --bs-btn-disabled-border-color: black;
-}
-
-
-/* Footer Section ---------------------------------------------------------- */
-
-footer {
+    background-color: black;
+    border-color: purple;
+  }
+  
+  #contactbutton:hover {
+    background-color: purple;
+    border-color: gold;
+  }
+  
+  #contactbutton:focus {
+    box-shadow: 0 0 0 0.25em rgba(49, 132, 253, 0.5);
+  }
+  
+  #contactbutton:active {
+    background-color: purple;
+    border-color: black;
+    box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  }
+  
+  #contactbutton:disabled {
+    color: white;
+    background-color: red;
+    border-color: black;
+  }
+  
+  
+  /* Footer Section ---------------------------------------------------------- */
+  
+  footer {
     text-align: center;
-}
+  }

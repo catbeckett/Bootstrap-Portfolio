@@ -1,56 +1,75 @@
+/* Button styles */
+.buttonRow button {
+    margin: 5px;
+    padding: 10px 20px;
+    background-color: black; /* Change blue to black */
+    color: gold; /* Change purple to gold */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Button hover effect */
+.buttonRow button:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+#logo {
+    max-width: 100px;
+    width: auto;
+    height: auto;
+}
+
 body {
     margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
 }
 
 a:hover {
-    box-shadow: 0px 0px 10px 1px rgb(4, 1, 17);
+    box-shadow: 0 0 10px 1px rgba(4, 1, 17, 0.5);
     transition: all 0.5s ease-in-out;
 }
 
-/* Navigation Bar ---------------------------------------------------------- */
-
-#logo {
-    width: 10vh;
-}
-
+/* Navigation Bar */
 .custom-navbar {
-    padding: 0px !important;
+    padding: 0 !important;
 }
 
 .customNav {
-    background-color: rgb(230, 135, 10);
+    background-color: black; /* Change blue to black */
 }
 
 .customnav-link {
-    color: white !important;
+    color: gold !important; /* Change purple to gold */
 }
 
-/* Hero Section ---------------------------------------------------------- */
-
+/* Hero Section */
 .customJumbo {
-    padding: 5vh 0;
-    background-color: rgb(243, 214, 107);
+    padding: 3.5vh 0;
+    background-color: rgb(244, 224, 113); /* Change purple to gold */
 }
 
 .customJumbo h2 {
-    font-size: 350%;
+    font-size: 2.1rem;
     color: black;
 }
 
 .customJumbo h3 {
+    font-size: 1.75rem;
     color: black;
-}
-
-.jumboText {
-    text-align: center;
 }
 
 #profile-pic {
     border-radius: 50%;
     padding: 2rem;
+    max-width: 100%;
 }
-/* Project Section ---------------------------------------------------------- */
 
+/* Project Section */
 .project-section {
     padding: 1.5vh 0;
 }
@@ -61,34 +80,29 @@ a:hover {
 }
 
 .customCard {
-    --bs-card-border-width: 0 !important;
+    border: none !important;
     text-align: center;
 }
 
 .customCard-image {
-    max-width: 75%;
+    max-width: 100%;
     margin: 0 auto;
 }
 
-/* About Me Section ---------------------------------------------------------- */
-
+/* About Me Section */
 .aboutme-section {
     padding: 1.5vh 0;
     background-color: black;
 }
 
-.aboutme-section h2 {
-    color: white;
+.aboutme-section h2,
+.aboutme-section h5 {
+    color: gold; /* Change purple to gold */
     margin-bottom: 0;
 }
 
-.aboutme-section h5 {
-    color: white;
-    opacity: 50%;
-}
-
 .aboutme-section p {
-    color: whitesmoke;
+    color: gold; /* Change purple to gold */
 }
 
 .aboutme-skills-contain,
@@ -101,65 +115,44 @@ a:hover {
     margin-bottom: 0.75rem;
 }
 
-
-/* Contact Section ---------------------------------------------------------- */
-
+/* Contact Section */
 .contact-section {
     padding: 1.5vh 0;
 }
 
-.contact-section .collapse {
-    color: gold;
-}
-.custom-collapsecard {
-    display: flex;
-    justify-content: center;
-  }
-  
-  .buttonRow {
-    width: 100% !important;
-  }
-  
-  .buttonRow button {
-    padding: 0.5rem;
-    margin: 0.5rem;
-  }
-  
-  #contactbutton-wrap {
+#contactbutton-wrap {
     margin-top: 1rem;
-  }
-  
-  #contactbutton {
+}
+
+#contactbutton {
     font-size: 1.5rem;
     color: white;
     background-color: black;
-    border-color: purple;
-  }
-  
-  #contactbutton:hover {
-    background-color: purple;
+    border-color: black;
+}
+
+#contactbutton:hover {
+    background-color: gold; /* Change purple to gold */
     border-color: gold;
-  }
-  
-  #contactbutton:focus {
-    box-shadow: 0 0 0 0.25em rgba(49, 132, 253, 0.5);
-  }
-  
-  #contactbutton:active {
-    background-color: purple;
+}
+
+#contactbutton:focus {
+    box-shadow: 0 0 0 0.25em black (49, 132, 253, 0.5);
+}
+
+#contactbutton:active {
+    background-color: gold;
     border-color: black;
     box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
-  }
-  
-  #contactbutton:disabled {
+}
+
+#contactbutton:disabled {
     color: white;
     background-color: red;
     border-color: black;
-  }
-  
-  
-  /* Footer Section ---------------------------------------------------------- */
-  
-  footer {
+}
+
+/* Footer Section */
+footer {
     text-align: center;
-  }
+}

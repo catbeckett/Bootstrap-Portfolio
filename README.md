@@ -37,3 +37,6 @@ This portfolio template was created by [Cat Beckett](https://github.com/catbecke
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
+
+## Screenshot
+![Portfolio Screenshot](./images/Screenshot-deployedportfolio.png)

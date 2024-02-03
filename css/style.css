@@ -1,5 +1,6 @@
+/* Logo */
 #logo {
-    max-width: 80px; /* Adjust the value as needed */
+    max-width: 80px; 
     width: auto;
     height: auto;
 }
@@ -9,8 +10,8 @@
 .buttonRow button {
     margin: 5px;
     padding: 10px 20px;
-    background-color: #333; /* Darker shade of black */
-    color: #FFD700; /* Gold */
+    background-color: #333; 
+    color: #FFD700; 
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -23,24 +24,29 @@
 
 /* Navigation Bar */
 .customNav {
-    background-color: #333; /* Darker shade of black */
+    background-color: #333; 
 }
 
 .customNav .nav-link {
-    color: white !important; /* Set text color to white */
+    color: white !important; 
 }
 
 
 /* Hero Section */
 .customJumbo {
     padding: 3.5vh 0;
-    background-color: #F0E68C; /* Lighter shade of gold */
+    background-color: #F0E68C;
+}
+
+.portfolio-link {
+    color: blue; 
+    text-decoration: underline; 
 }
 
 /* About Me Section */
 .aboutme-section {
     padding: 1.5vh 0;
-    background-color: #333; /* Darker shade of black */
+    background-color: #333; 
 }
 
 .aboutme-section h2,
@@ -50,7 +56,7 @@
 }
 
 .aboutme-section p {
-    color: #F0E68C;; /* Gold */
+    color: #F0E68C;; 
 }
 
 /* Contact Section */
@@ -59,11 +65,11 @@
 }
 
 #contactbutton {
-    background-color: #333; /* Darker shade of black */
-    border-color: #333; /* Darker shade of black */
+    background-color: #333; 
+    border-color: #333; 
 }
 
 #contactbutton:hover {
-    background-color: #F0E68C;; /* Gold */
-    border-color: #F0E68C;; /* Gold */
+    background-color: #F0E68C;; 
+    border-color: #F0E68C;;
 }

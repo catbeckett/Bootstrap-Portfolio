@@ -1,29 +1,39 @@
-## Bootstrap-Portfolio
-This challenge involved developing a portfolio site which includes the following features:
+# Cat // Bootstrap Portfolio
 
-# A navigation bar:
+This is a portfolio website template created using Bootstrap. It showcases various sections including a navigation bar, hero section, projects section, skills/about me section, contact section, and a footer.
+Please see the deployed page here: https://catbeckett.github.io/Bootstrap-Portfolio/ 
 
-* A navigation menu at the top.
-* Includes links that are applicable to my portfolio.
-* Links that navigate to the appropriate sections
+## Features
 
-# A hero section
+- **Navigation Bar**: A responsive navigation bar is implemented using Bootstrap's navbar component. It includes links to different sections of the portfolio: "About Cat", "Portfolio", and "Contact".
 
-* A jumbotron featuring my picture and name.
-* A work section
+- **Hero Section**: The hero section features a Jumbotron with the name and title of the web developer. It also includes a profile picture.
 
-# A section displaying my work in grid.
+- **Projects Section**: The projects section showcases various projects using Bootstrap cards. Each card includes an image, project title, and brief description.
 
-# A skills section
+- **Skills/About Me Section**: This section provides information about the web developer, including their background, experience, and skills. Skills are presented with progress bars indicating proficiency levels.
 
-# An about/contact section
+- **Contact Section**: The contact section includes buttons to contact the developer via email, Instagram, LinkedIn, and GitHub.
 
-# An About Me section in the same row.
+- **Footer Section**: A simple footer section is included at the bottom of the page.
 
-# A footer section
+## Usage
 
-* All hyperlinks have a hover effect.
+To use this portfolio template:
 
-* All buttons display a box shadow upon hover.
+1. Clone or download the repository.
+2. Open the `index.html` file in a web browser.
 
-This Bootstrap solution minimizes use of media queries.
+## Technologies Used
+
+- HTML
+- CSS (Bootstrap)
+- JavaScript (Bootstrap)
+
+## Credits
+
+This portfolio template was created by [Cat Beckett](https://github.com/catbeckett).
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).

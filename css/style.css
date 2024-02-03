@@ -1,9 +1,16 @@
+#logo {
+    max-width: 80px; /* Adjust the value as needed */
+    width: auto;
+    height: auto;
+}
+
+
 /* Button styles */
 .buttonRow button {
     margin: 5px;
     padding: 10px 20px;
-    background-color: black; /* Change blue to black */
-    color: gold; /* Change purple to gold */
+    background-color: #333; /* Darker shade of black */
+    color: #FFD700; /* Gold */
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -14,105 +21,36 @@
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
-#logo {
-    max-width: 100px;
-    width: auto;
-    height: auto;
-}
-
-body {
-    margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-a {
-    text-decoration: none;
-}
-
-a:hover {
-    box-shadow: 0 0 10px 1px rgba(4, 1, 17, 0.5);
-    transition: all 0.5s ease-in-out;
-}
-
 /* Navigation Bar */
-.custom-navbar {
-    padding: 0 !important;
-}
-
 .customNav {
-    background-color: black; /* Change blue to black */
+    background-color: #333; /* Darker shade of black */
 }
 
-.customnav-link {
-    color: gold !important; /* Change purple to gold */
+.customNav .nav-link {
+    color: white !important; /* Set text color to white */
 }
+
 
 /* Hero Section */
 .customJumbo {
     padding: 3.5vh 0;
-    background-color: rgb(244, 224, 113); /* Change purple to gold */
-}
-
-.customJumbo h2 {
-    font-size: 2.1rem;
-    color: black;
-}
-
-.customJumbo h3 {
-    font-size: 1.75rem;
-    color: black;
-}
-
-#profile-pic {
-    border-radius: 50%;
-    padding: 2rem;
-    max-width: 100%;
-}
-
-/* Project Section */
-.project-section {
-    padding: 1.5vh 0;
-}
-
-.project-section h2 {
-    color: black;
-    padding-bottom: 1rem;
-}
-
-.customCard {
-    border: none !important;
-    text-align: center;
-}
-
-.customCard-image {
-    max-width: 100%;
-    margin: 0 auto;
+    background-color: #F0E68C; /* Lighter shade of gold */
 }
 
 /* About Me Section */
 .aboutme-section {
     padding: 1.5vh 0;
-    background-color: black;
+    background-color: #333; /* Darker shade of black */
 }
 
 .aboutme-section h2,
 .aboutme-section h5 {
-    color: gold; /* Change purple to gold */
+    color: white;; 
     margin-bottom: 0;
 }
 
 .aboutme-section p {
-    color: gold; /* Change purple to gold */
-}
-
-.aboutme-skills-contain,
-.aboutme-text-contain {
-    padding: 1.5rem;
-    text-align: center;
-}
-
-.customProg {
-    margin-bottom: 0.75rem;
+    color: #F0E68C;; /* Gold */
 }
 
 /* Contact Section */
@@ -120,39 +58,12 @@ a:hover {
     padding: 1.5vh 0;
 }
 
-#contactbutton-wrap {
-    margin-top: 1rem;
-}
-
 #contactbutton {
-    font-size: 1.5rem;
-    color: white;
-    background-color: black;
-    border-color: black;
+    background-color: #333; /* Darker shade of black */
+    border-color: #333; /* Darker shade of black */
 }
 
 #contactbutton:hover {
-    background-color: gold; /* Change purple to gold */
-    border-color: gold;
-}
-
-#contactbutton:focus {
-    box-shadow: 0 0 0 0.25em black (49, 132, 253, 0.5);
-}
-
-#contactbutton:active {
-    background-color: gold;
-    border-color: black;
-    box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
-}
-
-#contactbutton:disabled {
-    color: white;
-    background-color: red;
-    border-color: black;
-}
-
-/* Footer Section */
-footer {
-    text-align: center;
+    background-color: #F0E68C;; /* Gold */
+    border-color: #F0E68C;; /* Gold */
 }
